@@ -1,0 +1,311 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="6dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text=""
+            android:padding="25dp"
+            android:layout_marginRight="3dp"
+            android:background="#FFB901"
+            android:src="@drawable/dialler"
+            android:textColor="#FFF"
+            android:id="@+id/tvCall" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="#FFB901"
+            android:paddingLeft="15dp"
+            android:text="1"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:drawableStart="@android:drawable/ic_dialog_email"
+            android:textColor="#FFF"
+            android:id="@+id/tvMsg" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:gravity="center"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:background="#FFB901"
+            android:paddingLeft="2dp"
+            android:drawableStart="@drawable/ic_chatting"
+            android:textColor="#FFF"
+            android:id="@+id/tvChat" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_marginLeft="3dp"
+            android:background="#FFB901"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ms_email_icon"
+            android:textColor="#FFF"
+            android:id="@+id/tvEmail" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="6dp"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:text="Pinspiration"
+                android:textSize="10sp"
+                android:drawableTop="@drawable/pin_icon"
+                android:gravity="bottom"
+                android:background="#CD2026"
+                android:layout_marginBottom="3dp"
+                android:textColor="#FFF"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:layout_marginTop="3dp"
+                android:background="#068907"
+                android:src="@drawable/xbox_messi"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Adam"
+                android:paddingLeft="15dp"
+                android:textSize="20sp"
+                android:background="#FFB901"
+                android:paddingTop="20dp"
+                android:gravity="center"
+                android:textColor="#FFF"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FFB901"
+                android:drawableBottom="@drawable/funny"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="3dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:text="New Releases"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:background="#940A5F"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/icon_add"
+                android:textColor="#FFF"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:layout_marginTop="3dp"
+                android:background="#04549D"
+                android:src="@drawable/music"
+                android:textColor="#FFF"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="6dp"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="6dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/kindlee"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="6dp"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:text=""
+                android:background="#ff9615ff"
+                android:layout_marginBottom="6dp"
+                android:src="@drawable/ms_setting_ic"
+                android:textColor="#FFF"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:background="#052D82"
+                android:src="@drawable/red_carpet"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:background="#FFB901"
+                android:layout_marginBottom="6dp"
+                android:padding="15dp"
+                android:drawableStart="@drawable/windows_store_ic"
+                android:textColor="#FFF"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:text=""
+                android:src="@drawable/jakir"
+                android:textColor="#FFF"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FFB901"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book club at Sandra's"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#FFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seattle"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#FFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thursday 7.00 PM - 9.00 PM"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFF"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:text="Calender"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:textSize="18sp"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Fri"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:textSize="18sp"
+                android:textColor="#FFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textSize="35sp"
+                android:textColor="#FFF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
